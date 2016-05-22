@@ -62,7 +62,7 @@
 		
         <div class="w3-card-4 w3-margin">
 
-            <div class="w3-container w3-black">
+            <div class="w3-container w3-light-blue">
 				<center><h2>Форма для завантаження</h2></center>
             </div>
 
@@ -71,7 +71,7 @@
             <label>Файл для завантаження</label>
             <input class="w3-input" type="file" id="testfile" name="testfile" required>
 
-            <input class="w3-input w3-red" type="submit" Value="OK"> <br>
+            <input class="w3-input w3-light-blue" type="submit" Value="OK"> <br>
 
             </form>
 
