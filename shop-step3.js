@@ -58,7 +58,7 @@
     var selectionChangeF = function()
     {
 		var price = calculatePrice();// [price, is_selected]
-		$("totalprice").innerHTML = "Sum: " + price[0].toFixed(2) + " UAH";
+		$("totalprice").innerHTML = "Вартість Вашого замовлення: " + price[0].toFixed(2) + " грн";
 		$("buybutton").disabled = !price[1];
     }
 	
