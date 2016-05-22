@@ -45,11 +45,11 @@
     <meta charset="UTF-8"></meta>
     <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
     <link rel="stylesheet" href="w3.css"></link>
-    <link rel="stylesheet" href="w3-theme-black.css"></link>
+    <link rel="stylesheet" href="w3-theme-light-blue.css"></link>
     <body>
         <header class="w3-container w3-card-4 w3-theme">
-            <title>Komputronik</title>
-            <h1>Komputronik</h1>
+            <title>KiberZona</title>
+            <h1>KiberZona</h1>
         </header>
         
         <div class="w3-container" id="itemcontainer">
@@ -57,18 +57,18 @@
         
         	
 		<footer class="w3-container w3-center w3-theme w3-bottom"> 
-		<h5>© 2016 | Oleg Oleshek</h5> 
+		<h5>© 2016 | Андрій Васевич</h5> 
 		</footer>
 		
         <div class="w3-card-4 w3-margin">
 
             <div class="w3-container w3-black">
-				<center><h2>Form for uploading</h2></center>
+				<center><h2>Форма для завантаження</h2></center>
             </div>
 
             <form class="w3-container" method="POST" action="upload.php" enctype="multipart/form-data">
 
-            <label>File for uploading</label>
+            <label>Файл для завантаження</label>
             <input class="w3-input" type="file" id="testfile" name="testfile" required>
 
             <input class="w3-input w3-red" type="submit" Value="OK"> <br>
