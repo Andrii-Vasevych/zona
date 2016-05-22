@@ -19,7 +19,7 @@
             $content = fopen($_FILES["testfile"]["tmp_name"], "r");
             $blob_name = hash( "sha256", uniqid("awu4hzkf29384hf", true)."jd9hr123794hrf", false );
             $container_name= "files";
-            $url = "https://komputronik.blob.core.windows.net/files/".$blob_name;
+            $url = "https://kiberzonastorage.blob.core.windows.net/storage/".$blob_name;
             
             try
             {
