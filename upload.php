@@ -18,7 +18,7 @@
             $blobRestProxy = ServicesBuilder::getInstance()->createBlobService($connectionString);
             $content = fopen($_FILES["testfile"]["tmp_name"], "r");
             $blob_name = hash( "sha256", uniqid("awu4hzkf29384hf", true)."jd9hr123794hrf", false );
-            $container_name= "files";
+            $container_name= "storage";
             $url = "https://kiberzonastorage.blob.core.windows.net/storage/".$blob_name;
             
             try
