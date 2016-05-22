@@ -51,10 +51,11 @@
       
         // test set of items
         $myitems = array(
-            array("Ноутбук Lenovo IdeaPad 100-14", "Екран 14 (1366x768) HD LED, глянцевий / Intel Celeron N2840 (2.16 - 2.58 ГГц) / RAM 2 ГБ / HDD 500 ГБ / Intel HD Graphics / LAN / Wi-Fi / веб-камера / DOS / 1.9 кг / чорний", 5999),
-            array("Ноутбук HP 255 G4", "Екран 15.6 (1366x768) HD LED, матовий / AMD Dual-Core E1-6015 (1.4 ГГц) / RAM 2 ГБ / HDD 500 ГБ / AMD Radeon R2 / LAN / Wi-Fi / Bluetooth / веб-камера / Linux / 2.15 кг / чорний", 6099),
-            array("Ноутбук Dell Inspiron 3542", "Екран 15.6 (1366x768) WXGA HD LED, глянцевий / Intel Celeron 2957U (1.4 ГГц) / RAM 2 ГБ / HDD 500 ГБ / Intel HD Graphics / DVD Super Multi / LAN / Wi-Fi / Bluetooth 4.0 / веб-камера / Linux / 2.4 кг / чорний", 6777) );
-        
+            	array("ASUS nVidia GT210", "description", 985),
+            	array("ASUS HD5450", "description", 1057),
+            	array("Gigabyte GT 610", "description", 1250),
+		array("Sapphire R5 230 Silent", "description", 2848),
+		array("EVGA GT210", "description", 897) );
         foreach($myitems as $item)
         {
             $title = $item[0];
