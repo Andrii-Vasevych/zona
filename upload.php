@@ -49,7 +49,7 @@
     <body>
         <header class="w3-container w3-card-4 w3-theme">
             <title>KiberZona</title>
-            <h1>KiberZona</h1>
+            <h1><img src="55.png">  інтернет-магазин</h1>
         </header>
         
         <div class="w3-container" id="itemcontainer">
